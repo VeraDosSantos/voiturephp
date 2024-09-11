@@ -19,6 +19,9 @@
         <li class="nav-item">
           <a class="nav-link active" href="/">Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/formulaire.php">Contact</a>
+        </li>
       </ul>
     </div>
   </div>

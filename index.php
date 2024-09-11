@@ -1,7 +1,7 @@
 <?php
     include_once(__DIR__ . '/partials/head.php');
     require_once(__DIR__ . "/data.php");
-    var_dump($cars);
+
     if($cars){
         foreach($cars as $car){
             $nameCar = $car['name'];
@@ -24,6 +24,7 @@
         echo "<h1>Il n'y a pas de voiture !</h1>";
     }
 ?>
+<a href="/formulaire.php" class="btn btn-warning" >Formulaire de contact</a>
 <?php 
     include_once(__DIR__ . "/partials/footer.php") 
 ?>
